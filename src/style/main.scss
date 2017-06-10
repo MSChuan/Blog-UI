@@ -18,16 +18,12 @@ body {
 #BlogTitleContainer {
     color: white;
     text-align: center;
-    font-size: 200%;
+    font-size: 150%;
     text-shadow: 1px 0px 0px black;
 }
-#NavBarContainer {
-    width: 100%;
-    li {
-        text-align: center;
-        width: 15%;
-        &:hover {
-            background-color: #918F8F;
-        }
+#NavBarContainer li {
+    text-align: center;
+    &:hover {
+        background-color: #918F8F;
     }
 }
