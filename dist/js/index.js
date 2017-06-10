@@ -12337,7 +12337,7 @@ __webpack_require__(763);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var store = (0, _configureStore2.default)();
+var store = (0, _configureStore2.default)(_ConstantsHelper.initialState);
 
 (0, _reactDom.render)(_react2.default.createElement(
     _reactHotLoader.AppContainer,

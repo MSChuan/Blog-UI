@@ -3,7 +3,7 @@ var WebpackDevServer = require('webpack-dev-server');
 var config = require('./webpack.config');
 
 new WebpackDevServer(webpack(config), {
-    publicPath: config.output.publicPath,
+    publicPath: '/',
     hot: true,
     historyApiFallback: true,
     // It suppress error shown in console, so it has to be set to false.

@@ -9,7 +9,7 @@ import Root from './root/Root';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './style/main.scss';
 
-const store = configureStore();
+const store = configureStore(initialState);
 
 render(
     <AppContainer>
